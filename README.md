@@ -170,9 +170,11 @@ def weighted_img(img, initial_img, alpha=0.8, beta=1., lambd=0.):
     return cv2.addWeighted(initial_img, alpha, img, beta, lambd)
 ```
 
-Here is an image that went through the algorithm, showing all that was mentioned.
+Here is an image that went through the algorithm, showing all that was mentioned. Note that the algorithm provided is intended to work for videos and it was updated from working on images.
 
 ![Frame 0 of Challenge](https://github.com/Olexyv/Project-1/blob/master/frame0.jpg)
+
+Additional files for videos are in this repository. "test_videos" rar file provide intial videos for testing and "testdir" rar file provides processed videos.
 
 ## **Possible improvements and limitations**
 
